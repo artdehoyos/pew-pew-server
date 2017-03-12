@@ -1,0 +1,25 @@
+{
+  "name": "pew-pew-server",
+  "version": "1.0.0",
+  "description": "Server for a multiplayer space shooter game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Art deHoyos",
+  "license": "ISC",
+  "dependencies": {
+    "matter-js": "^0.12.0",
+    "node-uuid": "^1.4.7",
+    "ws": "^2.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artdehoyos/pew-pew-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artdehoyos/pew-pew-server/issues"
+  },
+  "homepage": "https://github.com/artdehoyos/pew-pew-server#readme"
+}
