@@ -19,5 +19,13 @@ const server =
         client.on('message', (json) => {
             let data = JSON.parse(json);
             console.log(data);
+
+            if(data.type === msgTypes.client.INPUT){
+                handleInput(data, client);
+            }
         });
     });
+
+function handleInput(data, client){
+    
+}
